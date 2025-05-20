@@ -1,0 +1,78 @@
+# Build artifacts
+*.o
+*.lo
+*.la
+*.al
+.libs/
+.deps/
+*.so
+*.so.*
+*.a
+*.dylib
+*.dll
+*.exe
+*.out
+*.obj
+*.elf
+*.pyc
+*.pyo
+*.pyd
+*.gcda
+*.gcno
+*.gcov
+
+# Autotools
+Makefile
+Makefile.in
+Makefile.am
+aclocal.m4
+autogen.sh
+config.h
+config.h.in
+config.log
+config.status
+config.guess
+config.sub
+configure
+ltmain.sh
+libtool
+depcomp
+missing
+install-sh
+stamp-h1
+
+# Generated files
+*.bd
+*.wd
+*.weights
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor files
+*~
+*.swp
+*.swo
+*.swn
+.idea/
+.vscode/
+
+# Python cache
+__pycache__/
+
+# Large patch files
+patches/*.patch 
